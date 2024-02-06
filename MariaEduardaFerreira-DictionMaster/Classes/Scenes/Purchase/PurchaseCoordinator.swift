@@ -1,27 +1,23 @@
 import UIKit
 
-final class SearchCoordinator {
+final class PurchaseCoordinator {
     private let navigationController: UINavigationController
-    var delegate: SearchCoordinatorDelegate?
+    var delegate: PurchaseCoordinatorDelegate?
 
     init(navigationController: UINavigationController) {
         self.navigationController = navigationController
     }
     
     func start() {
-        let presenter = SearchPresenter()
-        
-        let searchViewController = SearchViewController(presenter: presenter)
+        let searchViewController = PurchaseViewController()
         searchViewController.delegate = self
-        presenter.viewController = searchViewController
-        
         searchViewController.navigationItem.setHidesBackButton(true, animated: false)
         navigationController.pushViewController(searchViewController, animated: true)
     }
 }
 
-extension SearchCoordinator: SearchViewControllerDelegate {
-    func searchResult(text: String) {
-        self.delegate?.searchResult(text: text)
+extension PurchaseCoordinator: PurchaseViewControllerDelegate {
+    func toSubscribe() {
+        self.delegate?.toSubscribe()
     }
 }

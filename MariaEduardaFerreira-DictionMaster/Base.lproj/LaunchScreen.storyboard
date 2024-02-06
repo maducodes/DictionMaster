@@ -23,6 +23,7 @@
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="by Maria Eduarda" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NZN-Bv-K8e">
                                 <rect key="frame" x="117.00000000000001" y="784.66666666666663" width="159.33333333333337" height="26.333333333333371"/>
+                                <accessibility key="accessibilityConfiguration" label="By Maria Eduarda"/>
                                 <fontDescription key="fontDescription" name="SFRounded-Ultralight" family="SF Pro Rounded" pointSize="22"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -32,6 +33,9 @@
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="title" translatesAutoresizingMaskIntoConstraints="NO" id="MlG-in-UXs">
                                 <rect key="frame" x="92" y="377" width="209" height="72"/>
+                                <accessibility key="accessibilityConfiguration" label="Diction Master">
+                                    <bool key="isElement" value="YES"/>
+                                </accessibility>
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>

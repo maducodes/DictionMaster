@@ -1,17 +1,24 @@
 import UIKit
 
 struct Fonts {
-    //Regular
-    static let regularH1 = UIFont(name: "SF-Pro-Rounded-Regular", size: 32)
-    static let regularH2 = UIFont(name: "SF-Pro-Rounded-Regular", size: 22)
-    static let regularH3 = UIFont(name: "SF-Pro-Rounded-Regular", size: 18)
-    static let regularH4 = UIFont(name: "SF-Pro-Rounded-Regular", size: 16)
+    static func regular(size: CGFloat) -> UIFont {
+        return UIFont(name: "SF-Pro-Rounded-Regular", size: size) ?? UIFont.systemFont(ofSize: size, weight: .regular)
+    }
     
-    //Bold
-    static let boldH1 = UIFont(name: "SF-Pro-Rounded-Bold", size: 45)
-    static let boldH2 = UIFont(name: "SF-Pro-Rounded-Bold", size: 32)
-    static let boldH3 = UIFont(name: "SF-Pro-Rounded-Bold", size: 24)
-    static let boldH4 = UIFont(name: "SF-Pro-Rounded-Bold", size: 22)
-    static let boldH5 = UIFont(name: "SF-Pro-Rounded-Bold", size: 18)
-    static let boldH6 = UIFont(name: "SF-Pro-Rounded-Bold", size: 16)
+    static func bold(size: CGFloat) -> UIFont {
+        return UIFont(name: "SF-Pro-Rounded-Bold", size: size) ?? UIFont.systemFont(ofSize: size, weight: .bold)
+    }
+
+    static let regularH1 = Fonts.regular(size: 32)
+    static let regularH2 = Fonts.regular(size: 22)
+    static let regularH3 = Fonts.regular(size: 18)
+    static let regularH4 = Fonts.regular(size: 16)
+    
+    static let boldH1 = Fonts.bold(size: 45)
+    static let boldH2 = Fonts.bold(size: 32)
+    static let boldH3 = Fonts.bold(size: 24)
+    static let boldH4 = Fonts.bold(size: 22)
+    static let boldH5 = Fonts.bold(size: 18)
+    static let boldH6 = Fonts.bold(size: 16)
+    static let boldH7 = Fonts.bold(size: 20)
 }
