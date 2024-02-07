@@ -4,6 +4,14 @@
 
 # DictionMaster
 
+<div>
+<img src="/Result/splash.PNG" alt="Search Blank" width="150" height="auto">
+<img src="/Result/search-blank.PNG" alt="Search Blank" width="150" height="auto">
+<img src="/Result/search-filled.PNG" alt="Search Filled"  width="150" height="auto">
+<img src="/Result/search-result.PNG" alt="Search Result" width="150" height="auto">
+<img src="/Result/purchase.PNG" alt="Purchase" width="150" height="auto">
+</div>
+
 ## Descrição
 
 DictionMaster é um aplicativo de dicionário de inglês que utiliza a API gratuita do Free Dictionary para fornecer definições, significados e pronúncias de palavras em inglês. Através de uma interface simples e intuitiva, os usuários podem aprimorar seu vocabulário e aprofundar seu entendimento da língua.
@@ -25,12 +33,3 @@ DictionMaster é um aplicativo de dicionário de inglês que utiliza a API gratu
 - Implementação do AVPlayer / AVFoundation
 - Implementação de componentes Acessíveis
 - Implementação do UINotificationFeedbackGenerator para feedback tátil
-
-## Resultados
-
-<div>
-<img src="/Result/search-blank.PNG" alt="Search Blank" width="150" height="auto">
-<img src="/Result/search-filled.PNG" alt="Search Filled"  width="150" height="auto">
-<img src="/Result/search-result.PNG" alt="Search Result" width="150" height="auto">
-<img src="/Result/purchase.PNG" alt="Purchase" width="150" height="auto">
-</div>
