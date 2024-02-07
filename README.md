@@ -1,5 +1,5 @@
-<div style="text-align: center;">
-    <img src="MariaEduardaFerreira-DictionMaster/Assets/Assets.xcassets/Icons/logo.imageset/logo.svg" alt="Diction Master" width="100" height="auto">
+<div style="display: flex; align-items: center; justify-content: center;">
+    <img src="MariaEduardaFerreira-DictionMaster/Assets/Assets.xcassets/Icons/logo.imageset/logo.svg" alt="Diction Master" width="200" height="auto">
 </div>
 
 # DictionMaster
