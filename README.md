@@ -1,4 +1,6 @@
-![DictionMaster Logo](MariaEduardaFerreira-DictionMaster/Assets/Assets.xcassets/Icons/logo.imageset/logo.svg)
+<div style="text-align: center;">
+    <img src="MariaEduardaFerreira-DictionMaster/Assets/Assets.xcassets/Icons/logo.imageset/logo.svg" alt="Diction Master" width="100" height="auto">
+</div>
 
 # DictionMaster
 
