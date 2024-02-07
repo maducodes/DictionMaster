@@ -25,6 +25,7 @@ DictionMaster é um aplicativo de dicionário de inglês que utiliza a API gratu
 - Orientação a protocolos
 - Coordinators
 - Delegates
+- Consumo de API Rest [![Free Dictionary](https://img.shields.io/badge/Free%20Dictionary-Visit-9cf)](https://dictionaryapi.dev)
 - Implementação do NSCache
 - Implementação do AVPlayer / AVFoundation
 - Implementação de componentes Acessíveis
